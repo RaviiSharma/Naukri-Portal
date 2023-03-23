@@ -10,8 +10,9 @@ mongoose.set("strictQuery", true);
 
 mongoose
   .connect(
-    "mongodb+srv://tannmayhedau619:Tanmay%40619@cluster0.fw1xhuw.mongodb.net/job-board",
+    "mongodb+srv://RaviKumarSharma:i6tpVmiNCvIQSjH6@cluster0.pnzdn4a.mongodb.net/job-board",
     { useNewUrlParser: true }
+   // mongodb+srv://RaviKumarSharma:i6tpVmiNCvIQSjH6@cluster0.pnzdn4a.mongodb.net/group-35-Database
   )
   .then(() => console.log("mongodb is connected"))
   .catch((error) => console.log(error));
